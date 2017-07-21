@@ -12,13 +12,13 @@
 </head>
 <style>
     body {
-        color: #CABEE8;
+        background-color: #16162D;
     }
     .titleview {
         font-size: 50px;
-        color: #000000;
         font-family: Microsoft JhengHei;
         font-weight: bold;
+        color: #FFFFFF;
         margin: 60px;
     }
     .btn-primary {
@@ -26,8 +26,15 @@
         height: 50px;
         border-radius: 20px;
         font-size: 25px;
-        margin-top: 220px;
+        margin-top: 150px;
         opacity:0.7;
+    }
+    span {
+        font-size: 33px;
+        font-family: Microsoft JhengHei;
+        font-weight: bold;
+        color: #FFFFFF;
+
     }
 </style>
 <body>
@@ -35,8 +42,14 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="titleview text-center ">
-                    L O H A S 樂活宅
+                    L O H A S 樂 活
                 </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2" align="center">
+                <span>為了讓人們選擇</span><br />
+                <span>自己所需求的</span><br />
+                <span>因此，</span><br />
+                <span>我們為你打造了專屬於你/妳的生活圈</span>
             </div>
             <div class="col-md-8 col-md-offset-2" align="center">
                 <button class="btn btn-primary" type="button" onclick="location.href='{{ url('/lohas') }}'">start</button>
