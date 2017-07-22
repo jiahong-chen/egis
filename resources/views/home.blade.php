@@ -23,10 +23,10 @@
     }
     .btn-primary {
         width: 200px;
-        height: 50px;
+        height: 70px;
         border-radius: 20px;
         font-size: 25px;
-        margin-top: 150px;
+        margin-top: 100px;
         opacity:0.7;
     }
     span {
@@ -42,14 +42,15 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="titleview text-center ">
-                    L O H A S 樂 活
+                    L O H A S 樂 活 宅
                 </div>
             </div>
             <div class="col-md-8 col-md-offset-2" align="center">
-                <span>為了讓人們選擇</span><br />
-                <span>自己所需求的</span><br />
-                <span>因此，</span><br />
-                <span>我們為你打造了專屬於你/妳的生活圈</span>
+                <span>為了讓人們選擇自己所需求的</span><br />
+                <span>樂活宅提供最關鍵三大的訊息</span><br />
+                <span>我們為你打造了專屬於你/妳的生活圈</span><br />
+                <span>也讓你在茫茫房海中</span><br />
+                <span>一眼挑選出真命天屋</span>
             </div>
             <div class="col-md-8 col-md-offset-2" align="center">
                 <button class="btn btn-primary" type="button" onclick="location.href='{{ url('/lohas') }}'">start</button>
